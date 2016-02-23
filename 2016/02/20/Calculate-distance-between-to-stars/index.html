@@ -3,24 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Welcome | Cosmology Data</title>
+  <title>Some notes when read UserGuide of AstroML and AstroPy | Cosmology Data</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="I create this site to introduce some Cosmology Data I used in my work.
-Such as CMB data from Plank, BOSS data from SDSS4, and Super Nova data, and γ\gammaγ bursts data.
-In my work, I have some trouble">
+  <meta name="description" content="In order to calculate the Two-point Correlation Function, I have to obtain the distance (both perpendicular and parallel to the line of sight).
+Because it is frequently-used，I believe I can find a fun">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Welcome">
-<meta property="og:url" content="http://cosmologydata.github.io/2016/02/09/Welcome/index.html">
+<meta property="og:title" content="Some notes when read UserGuide of AstroML and AstroPy">
+<meta property="og:url" content="http://cosmologydata.github.io/2016/02/20/Calculate-distance-between-to-stars/index.html">
 <meta property="og:site_name" content="Cosmology Data">
-<meta property="og:description" content="I create this site to introduce some Cosmology Data I used in my work.
-Such as CMB data from Plank, BOSS data from SDSS4, and Super Nova data, and γ\gammaγ bursts data.
-In my work, I have some trouble">
-<meta property="og:updated_time" content="2016-02-09T12:57:19.000Z">
+<meta property="og:description" content="In order to calculate the Two-point Correlation Function, I have to obtain the distance (both perpendicular and parallel to the line of sight).
+Because it is frequently-used，I believe I can find a fun">
+<meta property="og:updated_time" content="2016-02-23T15:56:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome">
-<meta name="twitter:description" content="I create this site to introduce some Cosmology Data I used in my work.
-Such as CMB data from Plank, BOSS data from SDSS4, and Super Nova data, and γ\gammaγ bursts data.
-In my work, I have some trouble">
+<meta name="twitter:title" content="Some notes when read UserGuide of AstroML and AstroPy">
+<meta name="twitter:description" content="In order to calculate the Two-point Correlation Function, I have to obtain the distance (both perpendicular and parallel to the line of sight).
+Because it is frequently-used，I believe I can find a fun">
   
     <link rel="alternative" href="/atom.xml" title="Cosmology Data" type="application/atom+xml">
   
@@ -66,10 +63,10 @@ In my work, I have some trouble">
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-Welcome" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Calculate-distance-between-to-stars" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="" class="article-date">
-  <time datetime="2016-02-09T12:48:11.000Z" itemprop="datePublished">2016-02-09</time>
+  <time datetime="2016-02-20T07:13:05.000Z" itemprop="datePublished">2016-02-20</time>
 </a>
     
   </div>
@@ -80,7 +77,7 @@ In my work, I have some trouble">
         
   
     <h1 class="article-title" itemprop="name">
-      Welcome
+      Some notes when read UserGuide of AstroML and AstroPy
     </h1>
   
 
@@ -88,15 +85,19 @@ In my work, I have some trouble">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>I create this site to introduce some Cosmology Data I used in my work.</p>
-<p>Such as CMB data from Plank, BOSS data from SDSS4, and Super Nova data, and <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>γ</mi></mrow><annotation encoding="application/x-tex">\gamma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.05556em;">γ</span></span></span></span> bursts data.</p>
-<p>In my work, I have some trouble in dealing with this data and this trouble have waste my time. I will write some skill here so that you won’t be blocked with the data.</p>
-<p>I will try my best to update this site. I promise.</p>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>In order to calculate the Two-point Correlation Function, I have to obtain the distance (both perpendicular and parallel to the line of sight).</p>
+<p>Because it is frequently-used，I believe I can find a function in an existed package like AstroML or Astropy.</p>
+<p>At first, I read AstroML’s UserGuide.<br>During the reading, I found AstroML has a function named     fech_sdss_spectrum() can automaticly download a data file from the SDSS data server. This function may be used in the future.</p>
+<p>And I found during the second phase of the SDSS, the project repedatedly surveyed a small swath of sky known as <em>Strip 82</em>. This  yielded an unprecendented set of data inthe time domain, which yielded insight into phenomena as wide-ranging ias the orbits of asteroids, the variablity of certain classe of stars, andthe acceleration of the expansion of the universe.</p>
+<p>I readed the full UserGuide, but there is no function used to calculate the distance.</p>
+<p>Then, I read the UserGuide of Astropy.</p>
+<p>I found Astropy has do a lot work in coordinate and units, which will be useful.</p>
+<p>And I found it is very easy to plot a SkyCoord picture with AstroPy.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cosmologydata.github.io/2016/02/09/Welcome/" data-id="cikzljbw70002la351zizj6ph" class="article-share-link">Share</a>
+      <a data-url="http://cosmologydata.github.io/2016/02/20/Calculate-distance-between-to-stars/" data-id="cikzljbvj0000la35e5rltu8e" class="article-share-link">Share</a>
       
       
     </footer>
@@ -105,19 +106,10 @@ In my work, I have some trouble">
     
 <nav id="article-nav">
   
-    <a href="../../20/index.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Some notes when read UserGuide of AstroML and AstroPy
-        
-      </div>
-    </a>
   
-  
-    <a href="../index.html" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="../../09/index.html" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">Welcome</div>
     </a>
   
 </nav>
@@ -151,15 +143,15 @@ In my work, I have some trouble">
       <ul>
         
           <li>
-            <a href="../../20/index.html">Some notes when read UserGuide of AstroML and AstroPy</a>
+            <a href="">Some notes when read UserGuide of AstroML and AstroPy</a>
           </li>
         
           <li>
-            <a href="">Welcome</a>
+            <a href="../../09/index.html">Welcome</a>
           </li>
         
           <li>
-            <a href="../index.html">Hello World</a>
+            <a href="../../09/index.html">Hello World</a>
           </li>
         
       </ul>

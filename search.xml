@@ -4,6 +4,20 @@
   
     
     <entry>
+      <title><![CDATA[Some notes when read UserGuide of AstroML and AstroPy]]></title>
+      <url>http://cosmologydata.github.io/2016/02/20/Calculate-distance-between-to-stars/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>In order to calculate the Two-point Correlation Function, I have to obtain the distance (both perpendicular and parallel to the line of sight).</p>
+<p>Because it is frequently-used，I believe I can find a function in an existed package like AstroML or Astropy.</p>
+<p>At first, I read AstroML’s UserGuide.<br>During the reading, I found AstroML has a function named     fech_sdss_spectrum() can automaticly download a data file from the SDSS data server. This function may be used in the future.</p>
+<p>And I found during the second phase of the SDSS, the project repedatedly surveyed a small swath of sky known as <em>Strip 82</em>. This  yielded an unprecendented set of data inthe time domain, which yielded insight into phenomena as wide-ranging ias the orbits of asteroids, the variablity of certain classe of stars, andthe acceleration of the expansion of the universe.</p>
+<p>I readed the full UserGuide, but there is no function used to calculate the distance.</p>
+<p>Then, I read the UserGuide of Astropy.</p>
+<p>I found Astropy has do a lot work in coordinate and units, which will be useful.</p>
+<p>And I found it is very easy to plot a SkyCoord picture with AstroPy.</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Welcome]]></title>
       <url>http://cosmologydata.github.io/2016/02/09/Welcome/</url>
       <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>I create this site to introduce some Cosmology Data I used in my work.</p>
